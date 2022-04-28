@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+
+    <!-- =============== CSS =============== -->
+    <link rel="stylesheet" href="contact_us.css" />
+
+    <!-- =============== BOXICONS =============== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container1">
+      <div class="navbar">
+        <img src="https://cdn.discordapp.com/attachments/891025496601661504/963850151984767036/unknown.png" class="nav-logo">
+        <nav>
+          <ul id="menulist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Our Kitchen</a></li>
+            <li><a href="offer/offer.html">Offers</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+          </ul>
+        </nav>
+        <img class="menu-icon" onclick="togglemenu()"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAG9JREFUSEvtlckNwCAQA01nlEY6g8qC9rEfjigPKyBiF+CRRoYNWJSwiAuBPzMv1a46AbiJ3q+2a6aaCTVmx9kOTLQ8rtKq3Uskr7po1bNxmWpm8lvVTOiwS8/Jtfzvr7azyEzXp3Ex9T52SfX5qisn1AwfJnWg+AAAAABJRU5ErkJggg=="/>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title1">Contact Us</h3>
+          <h1 class="title1">Get In Touch For</h1 >
+
+          <!-- <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            dolorum adipisci recusandae praesentium dicta!
+          </p> -->
+
+          <div class="info">
+            <div class="information">
+              <img src="https://cdn.discordapp.com/attachments/891025496601661504/967856446119223378/Group_33.png" alt="Feedback" class="logo2">
+
+              <!-- <p>92 Cherry Drive Uniondale, NY 11553</p> -->
+            </div>
+            <div class="information">
+              <img src="https://cdn.discordapp.com/attachments/891025496601661504/967856446723211274/Group_36.png" alt="" class="logo3">
+
+              <!-- <p>lorem@ipsum.com</p> -->
+            </div>
+            <div class="information">
+              <img src="https://cdn.discordapp.com/attachments/891025496601661504/967856446333145189/Group_34.png" alt="" class="logo1">
+
+              <!-- <p>123-456-789</p> -->
+            </div>
+          </div>
+          <div class="information">
+            <img src="https://cdn.discordapp.com/attachments/891025496601661504/967856446526087168/Group_35.png" alt="" class="logo4">
+             
+
+            <!-- <p>123-456-789</p> -->
+          </div>
+        </div>
+<!-- 
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="contact-form">
+          <div class="contact-form-background">
+            <form action="index.html" autocomplete="off">
+              <!-- <h3 class="title">Contact us</h3> -->
+              <div class="input-container">
+                <input type="text" name="name" class="input" />
+                <label for="">Username</label>
+                <span>Username</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email" class="input" />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" name="phone" class="input" />
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <input type="submit" value="Send" class="btn" />
+              <input type="submit" value="Call Us" class="btn" />
+
+            </form>
+          </div>
+          
+
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      var menulist = document.getElementById("menulist");
+      menulist.style.maxHeight = "0px";
+      function togglemenu(){
+        if(menulist.style.maxHeight == "0px")
+        {
+          menulist.style.maxHeight = "190px";
+        }
+        else{
+          menulist.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
