@@ -452,7 +452,7 @@ color: #78A92D;
     height:50%;
 }
 .container2 .box .imgbox img{
-  width: 25%;
+  /* width: 25%; */
   height: 55%;
   object-fit: cover;
 }
@@ -692,9 +692,7 @@ color: #78A92D;
   
   
   }
-  .box{
-    width:75%;
-  }
+  
 
   .icon {
     width: 23px;
