@@ -45,54 +45,18 @@
               <div class="image-grid">
                 <img src="https://cdn.discordapp.com/attachments/885108791610322964/969512290049216542/gr.png" alt="">
               </div>
-              <!-- <div class="contact-services">
-
-                <div class="info">
-                  <div class="information">
-                    <img src="https://cdn.discordapp.com/attachments/891025496601661504/967856446119223378/Group_33.png" alt="Feedback" class="logo2">
-
-                  </div>
-                  <div class="information">
-                    <img src="https://cdn.discordapp.com/attachments/891025496601661504/967856446723211274/Group_36.png" alt="" class="logo3">
-
-                  </div>
-                  <div class="information">
-                    <img src="https://cdn.discordapp.com/attachments/891025496601661504/967856446333145189/Group_34.png" alt="" class="logo1">
-                  </div>
-                  <div class="information">
-                    <img src="https://cdn.discordapp.com/attachments/891025496601661504/967856446526087168/Group_35.png" alt="" class="logo4">
-                  </div>
-                </div>
-              </div> -->
+              
         </div>
-<!-- 
-          <div class="social-media">
-            <p>Connect with us :</p>
-            <div class="social-icons">
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </div>
-          </div>
-        </div> -->
+
 
         <div class="contact-form">
           <div class="contact-form-background">
-            <form action="index.html" autocomplete="off">
+            <form  name='submit-to-google-sheet' method = "POST" data-email="homianscontacts@gmail.com">
               <!-- <h3 class="title">Contact us</h3> -->
               <div class="input-container">
                 <input type="text" name="name" class="input" />
-                <label for="">Username</label>
-                <span>Username</span>
+                <label for="">Name</label>
+                <span>Name</span>
               </div>
               <div class="input-container">
                 <input type="email" name="email" class="input" />
@@ -110,7 +74,9 @@
                 <span>Message</span>
               </div>
               <div class="buttons">
-                <input type="submit" value="Send" class="btn" />
+                <!-- <input type="submit" value="Send" class="btn" /> -->
+                <button type="submit" class="btn btn-primary">Send!</button>
+
                 <input type="submit" value="Call Us" class="btn" />
   
               </div>
@@ -176,38 +142,38 @@
   <section class="section3">
     <div class="slider">
       <div class="slide active">
-        <img src="1.jpg" alt="">
+        <img class="slides-ques" src="https://cdn.discordapp.com/attachments/891025496601661504/969649843888869386/FAQ1.png" alt="">
         <div class="info">
-          <h2>Winter Mountains</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <!-- <h2>Winter Mountains</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
         </div>
       </div>
       <div class="slide">
-        <img src="2.jpg" alt="">
+        <img class="slides-ques" src="https://cdn.discordapp.com/attachments/891025496601661504/969661036137447474/FAQ3.png" alt="">
         <div class="info">
-          <h2>Tropical Desert</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <!-- <h2>Tropical Desert</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
         </div>
       </div>
       <div class="slide">
-        <img src="3.jpg" alt="">
+        <img class="slides-ques" src="https://cdn.discordapp.com/attachments/891025496601661504/969661036397473822/FAQ4.png" alt="">
         <div class="info">
-          <h2>Steaming Volcanoes</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <!-- <h2>Steaming Volcanoes</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
         </div>
       </div>
       <div class="slide">
-        <img src="4.jpg" alt="">
+        <img class="slides-ques" src="https://cdn.discordapp.com/attachments/891025496601661504/969661037160841326/FAQ2.png" alt="">
         <div class="info">
-          <h2>Mountain River</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <!-- <h2>Mountain River</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
         </div>
       </div>
       <div class="slide">
-        <img src="5.jpg" alt="">
+        <img class="slides-ques" src="https://cdn.discordapp.com/attachments/891025496601661504/969661036938526770/FAQ5.png" alt="">
         <div class="info">
-          <h2>Egypt Pyramids</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <!-- <h2>Egypt Pyramids</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
         </div>
       </div>
       <div class="navigation">
@@ -238,6 +204,26 @@
         }
       }
     </script>
+    <!-- ####################### contact us form data  #########################################  -->
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxweRONCRtvEUwKBb5YHrCw1w_aDD0v9jBciUtMsL_JWxdkRkV_rSNdGS6-laJaj6-Bow/exec'
+      const form = document.forms['submit-to-google-sheet']
+  
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', 
+        body: new FormData(form)})
+          .then(response => {
+            let successbox = document.querySelector('.success-message');
+            successbox.innerHTML = '<div class="alert alert-primary">We will get back to you ASAP!</div>';
+            form.name = form.email = form.message = ' ';
+            console.log('Success!', response)
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+      </script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     <script type="text/javascript">
       const slider = document.querySelector(".slider");
       const nextBtn = document.querySelector(".next-btn");

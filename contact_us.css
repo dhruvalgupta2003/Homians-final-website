@@ -571,7 +571,7 @@ color: #78A92D;
 .slider{
   position: relative;
   background: #c2f577;
-  width: 800px;
+  width: 1000px;
   min-height: 500px;
   margin: 20px;
   overflow: hidden;
@@ -599,9 +599,9 @@ color: #78A92D;
 
 .slider .slide .info{
   position: absolute;
-  color: #222;
+  /* color: #222;
   background: rgba(255, 255, 255, 0.3);
-  width: 75%;
+  width: 75%; */
   margin-top: 50px;
   margin-left: 50px;
   padding: 20px;
