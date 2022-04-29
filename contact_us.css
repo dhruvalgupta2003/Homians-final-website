@@ -686,6 +686,11 @@ color: #78A92D;
 }
 
 @media (max-width: 500px){
+  .slider{
+    width:100%;
+    margin-top: 100px;
+    top:230%;
+  }
   .slider .slide .info h2{
     font-size: 1.8em;
     line-height: 40px;
