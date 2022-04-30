@@ -560,6 +560,49 @@ color: #78A92D;
 }  */
 
 /* ---------------------------------------------------------------------section -3 faq page----------------------------------------------------------------------------- */
+.faq{
+  padding:5vw;
+}
+.section3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* min-height: 100vh; */
+}
+.heading3{
+  font-family: 'Pacifico',cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6vw;
+  line-height: 158%;
+  margin:0;
+  padding:0;
+  /* or 101px */
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #78A92D;
+  justify-content: center;
+  text-align: center;
+}
+.sub-heading3{
+  font-family: 'Pacifico',cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6vw;
+  line-height: 158%;
+  margin:0;
+  padding:0;
+  text-align: center;
+  letter-spacing: 0.08em;
+  color: #78A92D;
+  justify-content: center;
+  text-align: center;
+}
+
+
+
+
 .section3{
   height: 100vh;
   display: flex;
@@ -689,7 +732,7 @@ color: #78A92D;
   .slider{
     width:100%;
     margin-top: 100px;
-    top:230%;
+    /* top:230%; */
   }
   .slider .slide .info h2{
     font-size: 1.8em;
@@ -762,6 +805,17 @@ color: #78A92D;
     color: #78A92D;
     justify-content: center;
     text-align: center;
+  }
+  .heading3{
+
+  margin-top: 100px;
+  font-size: 10vw;
+    
+  }
+  .sub-heading3{
+    /* margin-top: 100px; */
+  font-size: 10vw;
+
   }
 
   .contact-form:before {
@@ -842,7 +896,19 @@ color: #78A92D;
   
   
   }
-  
+  .heading3{
+
+    margin-top: 2000px;
+    font-size: 13vw;
+
+
+      
+    }
+    .sub-heading3{
+      /* margin-top: 100px; */
+      font-size: 13vw;
+
+    }
 
   .icon {
     width: 23px;
