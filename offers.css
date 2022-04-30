@@ -1,0 +1,263 @@
+.hero:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* height: 0%; */
+    
+    
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+/*------------------------ header -----------------------------------------------*/
+.container1{
+    width: 100%;
+    min-height: 40vh;
+    padding-left: 2%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .nav-logo{
+    /* position: absolute; */
+    left: 0.7%;
+    right: 88.67%;
+    top: 0%;
+    bottom: 6.68%;
+  }
+  .menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+  }
+  nav{
+    flex: 1;
+    text-align: right;
+  }
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color:#78A92D;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  nav ul li a:hover{
+    color:#333;
+  }
+.background_img{
+    width: 100vw;
+    height: 100vh;
+    margin-top: -13%;
+   
+}
+.hero_content{
+    margin-top: -40%;
+    margin-left: 40%;
+}
+.small_logo{
+    margin-top: -3%;
+    height: 40vh;
+}
+.refer{
+    font-size: 1.3rem;
+    color: 
+    #78A92D
+    ;
+    font-weight: 700;
+    margin-left: 4%;
+}
+.btn{
+    height: 8vh;
+    width: 13vw;
+    margin-left: 43%;
+    margin-top: 6%;
+    border-radius: 17px;
+    border: 0px;
+    color: black;
+    font-size: 1rem;
+}
+.orange_text{
+    color: orange;
+}
+.gift_left{
+    height: 45vh;
+    margin-top: -230px;
+    margin-left: -50%;
+}
+.gift_right{
+    height: 40vh;
+    margin-left: 70%;
+    margin-top: -20%;
+}
+.parent_one{
+    display: flex;
+}
+.img_left{
+    height: 70vh;
+    margin-left: 10%;
+}
+.subs{
+    font-size: 3rem;
+    margin-top: 20%;
+    margin-left: 20%;
+    color: #78A92D;
+}
+.parent_two{
+    display: flex;
+}
+
+.img_right{
+    height: 80vh;
+}
+.child_left_two{
+    font-size: 2rem;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+.color_text{
+    color: #78A92D;
+}
+
+@media only screen and (max-width: 428px){
+    .background_img{
+        width: 100vw;
+        height: 60vh;
+        margin-top: -100%;
+       
+    }
+    .order{
+        font-size: 0.9rem;
+        margin-left: -10%;
+        margin-top: -90%;
+    }
+    .small_logo{
+        height: 22vh;
+        margin-left: 0%;
+    }
+    .refer{
+        font-size: 0.6rem;
+        margin-top: 5%;
+    }
+    .btn{
+        height: 5vh;
+        font-size: 0.3rem;
+        margin-top: 4%;
+        background-color: orange;
+    }
+
+    .gift_left{
+        height: 30vh;
+    }
+    .gift_right{
+        height: 20vh;
+    }
+    .parent_one{
+        display: flex;
+        flex-direction: column;
+    }
+    .parent_two{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .img_left{
+        height: 50vh;
+        margin-left: 20%;
+    }
+    .subs{
+        font-size: 1.6rem;
+    }
+    .subs2{
+        font-size: 1rem;
+        margin-left: 10%;
+        
+    }
+    .img_right{
+        height: 50vh;
+        margin-left: 10%;
+    }
+}
+
+
+
+@media only screen and (max-width: 413px){
+    .background_img{
+        width: 100%;
+        height: 30vh;
+       
+    }
+    .btn{
+        margin-left: 43%;
+        margin-top: 1%;
+        height: 4vh;
+        width: 15vw;
+        font-size: 0.6rem;
+    }
+    .refer{
+        margin-top: -4%;
+    }
+    .small_logo{
+        height: 15vh;
+        margin-left: -5%;
+    }
+    .gift_left{
+        
+        margin-left: -50%;
+        height: 15vh;
+    }
+    .gift_right{
+        height:15vh ;
+    }
+    .img_left{
+        height: 20vh;
+    }
+    .img_right{
+        height: 20vh;
+    }
+    .subs{
+        font-size: 1.1rem;
+    }
+    .subs2{
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width:700px){
+
+    nav ul{
+      width: 100%;
+      background: linear-gradient(#fcfffa,#c2f577);
+      position:absolute;
+      top: 75px;
+      right: 0;
+      z-index: 2;
+    }
+    nav ul li{
+      display:block;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    nav ul li a{
+      color:#333;
+    }
+    .menu-icon{
+    display: block;
+    }
+    #menulist{
+      overflow: hidden;
+      transition: 0.5s;
+    }
+  }

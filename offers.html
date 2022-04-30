@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="offers.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+  <!-- ---------------------header-------------------------------------------------- -->
+  <div class="container1">
+    <div class="navbar">
+      <img src="https://cdn.discordapp.com/attachments/891025496601661504/963850151984767036/unknown.png" class="nav-logo">
+      <nav>
+        <ul id="menulist">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">Our Kitchen</a></li>
+          <li><a href="offers.html">Offers</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <img class="menu-icon" onclick="togglemenu()"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAG9JREFUSEvtlckNwCAQA01nlEY6g8qC9rEfjigPKyBiF+CRRoYNWJSwiAuBPzMv1a46AbiJ3q+2a6aaCTVmx9kOTLQ8rtKq3Uskr7po1bNxmWpm8lvVTOiwS8/Jtfzvr7azyEzXp3Ex9T52SfX5qisn1AwfJnWg+AAAAABJRU5ErkJggg=="/>
+    </div>
+  </div>
+  <!-- -------------------------------------offer page-------------------------------- -->
+    <div class="hero">
+        <img class="background_img"src="https://cdn.discordapp.com/attachments/891025496601661504/969501689004568576/unknown.png" alt="" />
+        <div class="hero_content">
+          <div class="wrapper"><h2  class="order">Order your first meal now</h2></div>
+          <img  class="small_logo"src="https://cdn.discordapp.com/attachments/891025496601661504/969513277048623134/unknown.png"/>
+          <p class="refer">
+            <span class="orange_text">Refer a Friend</span><br>
+            Give 10% and Get 10% 
+            off<br> on Subscriptions
+            
+          </p>
+        </div>
+        <button class="btn">Subscribe Now</button>
+        <img src="https://cdn.discordapp.com/attachments/891025496601661504/969522148618141696/unknown.png" class="gift_left"/>
+        <img class="gift_right" src="https://cdn.discordapp.com/attachments/891025496601661504/969523174423269376/unknown.png"/>
+      </div>
+      <div class="parent_one">
+          <div class="child_left">
+              <img class="img_left"src="https://cdn.discordapp.com/attachments/891025496601661504/969523941204975616/unknown.png"/> 
+          </div>
+          <div class="child_right">
+              <p class="subs">Book your subscriptions plan with your group and receive massive discounts !!!</p>
+          </div>
+      </div>
+      <div class="parent_two">
+          <div class="child_left_two"><p class="subs2">
+            <span class="color_text">Earn side Income with HOMIANS</span><br>
+            Bring customers and get 10% of their Subscription Plan as your part time income</p>
+          </div>
+          <div class="child_right_two">
+              <img class="img_right"src="https://cdn.discordapp.com/attachments/891025496601661504/969526351696629790/unknown.png"/>
+          </div>
+      </div>
+      <script>
+        var menulist = document.getElementById("menulist");
+        menulist.style.maxHeight = "0px";
+        function togglemenu(){
+          if(menulist.style.maxHeight == "0px")
+          {
+            menulist.style.maxHeight = "190px";
+          }
+          else{
+            menulist.style.maxHeight = "0px";
+          }
+        }
+      </script>
+    
+</body>
+</html>

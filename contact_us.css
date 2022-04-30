@@ -850,10 +850,11 @@ color: #78A92D;
   .contact-form-background{
     background-color: #fafafa;
     width: 100%;
-    height: 75%;
+    height: 95%;
     left: 669px;
     /* margin-left:-50px; */
-    margin:1px;   
+    margin-top:-30%;
+    /* margin:1px;    */
     top: 1597px;
     border-radius: 30px;
   }
