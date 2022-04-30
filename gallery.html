@@ -1,153 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
-    <title>Document</title>
+    <link rel="stylesheet" href="gallery.css">
+    <title>Our Gallery</title>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'> -->
+
 </head>
+
 <body>
-    <div class="nav">
-        <input type="checkbox" id="nav-check">
-        <div class="nav-header">
-          <div class="nav-title">
-            <img class="logo" src="https://cdn.discordapp.com/attachments/891025496601661504/963850151984767036/unknown.png"></img>
-          </div>
-        </div>
-        <div class="nav-btn">
-          <label for="nav-check">
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
-        </div>
-        
-        <div class="nav-links">
-          <a href="" target="_blank">Home</a>
-          <a href="" target="_blank">Our Kitchen</a>
-          <a href="" target="_blank">Offers</a>
-          <a href="" target="_blank">Why Us?</a>
-          <a href="" target="_blank">Gallery</a>
-          <a href="" target="_blank">Contact Us</a>
-        </div>
+    <div class="navbar">
+        <img src="https://cdn.discordapp.com/attachments/891025496601661504/963850151984767036/unknown.png" class="nav-logo">
+        <nav>
+          <ul id="menulist">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Our Kitchen</a></li>
+            <li><a href="offer.html">Offers</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+          </ul>
+        </nav>
+        <img class="menu-icon" onclick="togglemenu()"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAG9JREFUSEvtlckNwCAQA01nlEY6g8qC9rEfjigPKyBiF+CRRoYNWJSwiAuBPzMv1a46AbiJ3q+2a6aaCTVmx9kOTLQ8rtKq3Uskr7po1bNxmWpm8lvVTOiwS8/Jtfzvr7azyEzXp3Ex9T52SfX5qisn1AwfJnWg+AAAAABJRU5ErkJggg=="/>
+      </div>
     </div>
-    <div class="heading_gallery">
-        <h2 class="head">Our Gallery</h2>
+    
+    <div class="header">
+        <h1>Our Gallery</h1>
     </div>
 
+  <div class="gallery_box">
+    <div class="roow">
 
-    <div class="side">
-      <div class="side_set">
-        <div class="ord"><span class="txt_ord"> Order Now</span></div>
-        <div class="wht"><img class="img1" src="images/whatsapp.png"></img></div>
-        <div class="insta"><img class="img2" src="images/instagram.png"></img></div>
-        <div class="link"><img class="img3" src="images/linkedin.png"></img></div>
+        <div class="coolumn">
+            <div class="img-hover-zoom">
+                <img src="https://cdn.discordapp.com/attachments/891025496601661504/966716576583790753/photo_2022-04-14_11-25-14.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://cdn.discordapp.com/attachments/891025496601661504/966716576583790753/photo_2022-04-14_11-25-14.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://cdn.discordapp.com/attachments/891025496601661504/966716577481384017/photo_2022-04-14_11-25-17.jpg" style="width:100%" alt="">
+            </div>
+        </div>
+
+        <div class="coolumn">
+            <div class="img-hover-zoom">
+                <img src="https://cdn.discordapp.com/attachments/891025496601661504/966716576583790753/photo_2022-04-14_11-25-14.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://cdn.discordapp.com/attachments/891025496601661504/966716577481384017/photo_2022-04-14_11-25-17.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://cdn.discordapp.com/attachments/891025496601661504/966716577481384017/photo_2022-04-14_11-25-17.jpg" style="width:100%" alt="">
+            </div>
+        </div>
+
+        <div class="coolumn">
+            <div class="img-hover-zoom">
+                <img src="https://cdn.discordapp.com/attachments/891025496601661504/966716577481384017/photo_2022-04-14_11-25-17.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://cdn.discordapp.com/attachments/891025496601661504/966716576931905576/photo_2022-04-14_11-25-15.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://cdn.discordapp.com/attachments/891025496601661504/966716576931905576/photo_2022-04-14_11-25-15.jpg" style="width:100%" alt="">
+            </div>
+        </div>
+        <div class="coolumn">
+            <div class="img-hover-zoom">
+                <img src="https://cdn.discordapp.com/attachments/891025496601661504/966716576583790753/photo_2022-04-14_11-25-14.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://cdn.discordapp.com/attachments/891025496601661504/966716576583790753/photo_2022-04-14_11-25-14.jpg" style="width:100%" alt="">
+            </div>
+            <div class="img-hover-zoom">
+                <img src="https://cdn.discordapp.com/attachments/891025496601661504/966716577481384017/photo_2022-04-14_11-25-17.jpg" style="width:100%" alt="">
+            </div>
+        </div>
       </div>
 
 
-
     </div>
-    <div class="box_gallery">
-
-        <div class="grid-container">
-
-            <div class="set1">
-            <div class="grid_item"><img class="imgg" src="https://cdn.discordapp.com/attachments/891025496601661504/966716577481384017/photo_2022-04-14_11-25-17.jpg"></img></div>
-            <div class="grid_item"><img class="imgg" src="https://cdn.discordapp.com/attachments/891025496601661504/966716578588684328/photo_2022-04-14_11-25-21.jpg"></img></div>
-            <div class="grid_item"><img class="imgg" src="https://cdn.discordapp.com/attachments/891025496601661504/966716576583790753/photo_2022-04-14_11-25-14.jpg"></img></div>
-            <div class="grid-item"><img class="imgg" src="https://cdn.discordapp.com/attachments/891025496601661504/966716578047594586/photo_2022-04-14_11-25-20_2.jpg"></img></div>
-            </div>
-
-            <div class="set2">
-              <div class="grid-item"><img class="imgg" src="https://cdn.discordapp.com/attachments/891025496601661504/966716578278297662/photo_2022-04-14_11-25-20.jpg"></img></div>
-            <div class="grid-item"><img class="imgg" src="https://cdn.discordapp.com/attachments/891025496601661504/966716578047594586/photo_2022-04-14_11-25-20_2.jpg"></img></div>
-            <div class="grid-item"><img class="imgg" src="https://cdn.discordapp.com/attachments/891025496601661504/966716578278297662/photo_2022-04-14_11-25-20.jpg"></img></div>
-            <div class="grid-item"><img class="imgg" src="https://cdn.discordapp.com/attachments/891025496601661504/966716578806784030/photo_2022-04-14_11-25-22.jpg"></img></div>
-            </div>
-
-            <div class="set3">
-              <div class="grid-item"><img class="imgg" src="https://cdn.discordapp.com/attachments/891025496601661504/966716578806784030/photo_2022-04-14_11-25-22.jpg"></img></div>
-            <div class="grid-item"><img class="imgg" src="https://cdn.discordapp.com/attachments/891025496601661504/966716577800134666/photo_2022-04-14_11-25-19.jpg"></img></div>
-            <div class="grid-item"><img class="imgg" src="https://cdn.discordapp.com/attachments/891025496601661504/966716577481384017/photo_2022-04-14_11-25-17.jpg"></img></div>
-            <div class="grid-item"><img class="imgg" src="https://cdn.discordapp.com/attachments/891025496601661504/966716577481384017/photo_2022-04-14_11-25-17.jpg"></img></div>
-            </div>
-
-
-
-
+    <!-- ##########################java script for navbar############ -->
+    <script>
+        var menulist = document.getElementById("menulist");
+        menulist.style.maxHeight = "0px";
+        function togglemenu(){
+          if(menulist.style.maxHeight == "0px")
+          {
+            menulist.style.maxHeight = "190px";
+          }
+          else{
+            menulist.style.maxHeight = "0px";
+          }
+        }
+      </script>
+      <!-- ################## Footer ####################### -->
+      <!-- <div class="footer">
+        <div class="footer_back">
+          <img class="footer_img" src="https://cdn.discordapp.com/attachments/891025496601661504/964926844958834688/Group_18.png"></img>
+          <div class="fgh">
+            <p class="asd">Homians</p>
             
-
-          </div>
-
-
-
-
-
-    </div>
-
-
-
-
-    <div class="footer">
-      <div class="footer_back">
-        <img class="footer_img" src="https://cdn.discordapp.com/attachments/891025496601661504/964926844958834688/Group_18.png"></img>
-        <div class="fgh">
-          <p class="asd">Homians</p>
+            <ul class="qwe">
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Privacy Policy</li>
+              <li>Terms & Condition</li>
+            </ul>
+          </div> 
           
-          <ul class="qwe">
-            <li>About Us</li>
-            <li>Contact Us</li>
-            <li>Privacy Policy</li>
-            <li>Terms & Condition</li>
-          </ul>
-        </div> 
-        
-
-
-        <div class="contact_us">
-          <p class="niet">Contact Us</p>
-          <ul class="nit">
-            <div class="con"><img class="loc" src="https://img.icons8.com/material-sharp/24/000000/marker.png"/><span class="txt1">Parichowk,Gr.Noida, 201310</span></li>
-            <li><img class="call" src="https://img.icons8.com/ios-glyphs/30/000000/phone--v1.png"/><span class="txt2">+91-8287799188,+91-8882003295</span> </li>
-            <li><img class="mes" src="https://img.icons8.com/material/24/000000/mail.png"/><span class="txt3">customercare@homians.com</span></li>
-            </div>
-          </ul>
-        </div>
-            
-          <div class="timing">
-            <p class="nie">Timing</p>
-            <ul class="ni">
-              <li>> Breakfast<br>
-              8:00 AM - 9:30 PM</li>
-              <li>> Lunch<br>
-              12:00 PM - 1:30 PM</li>
-              <li>> DINNER<br>
-              7:30 PM - 9:00 PM</li>
+          <div class="contact_us">
+            <p class="niet">Contact Us</p>
+            <ul class="nit">
+              <div class="con"><img class="loc" src="https://img.icons8.com/material-sharp/24/000000/marker.png"/><span class="txt1">Parichowk,Gr.Noida, 201310</span></li>
+              <li><img class="call" src="https://img.icons8.com/ios-glyphs/30/000000/phone--v1.png"/><span class="txt2">+91-8287799188,+91-8882003295</span> </li>
+              <li><img class="mes" src="https://img.icons8.com/material/24/000000/mail.png"/><span class="txt3">customercare@homians.com</span></li>
+              </div>
             </ul>
           </div>
-             
-                
-          <div class="question">
-          <p class="rawat">Have questions in mind?
-                  Let us help you!</p>
+              
+            <div class="timing">
+              <p class="nie">Timing</p>
+              <ul class="ni">
+                <li>> Breakfast<br>
+                8:00 AM - 9:30 PM</li>
+                <li>> Lunch<br>
+                12:00 PM - 1:30 PM</li>
+                <li>> DINNER<br>
+                7:30 PM - 9:00 PM</li>
+              </ul>
             </div>
-
-          <div  class="nivesh">
-            <input class='harsh' type="text" placeholder="yourmail@gmail.com">
-            </input>
-            <button class="rat">Send</button>
-          </div>
-          <img class="devesh" src="https://cdn.discordapp.com/attachments/891025496601661504/966749817147629608/unknown.png"> </img>
-      
-      <div class="mohit">
-      <p>2022 ©All Rights Reserved By @HOMIANS</p></div>
-      </div>
-    </div>
-
-   
-
+               
+                  
+            <div class="question">
+            <p class="rawat">Have questions in mind?
+                    Let us help you!</p>
+              </div>
+            <div  class="nivesh">
+              <input class='harsh' type="text" placeholder="yourmail@gmail.com">
+              </input>
+              <button class="rat">Send</button>
+            </div>
+            <img class="devesh" src="https://cdn.discordapp.com/attachments/891025496601661504/966749817147629608/unknown.png"> </img>
+        
+        <div class="mohit">
+        <p>2022 ©All Rights Reserved By @HOMIANS</p></div>
+        </div>
+      </div> --> 
+  
 </body>
 </html>
