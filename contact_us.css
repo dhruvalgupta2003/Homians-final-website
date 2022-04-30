@@ -772,7 +772,8 @@ color: #78A92D;
 
 /* -------------------------------------------------footer---------------------------------------------------------------------- */
 .footer{
-  margin: 0;
+  /* margin: 0; */
+  margin-top: 20%;
   justify-content:center;
   display: flex;
 }
@@ -796,6 +797,7 @@ color: #78A92D;
   position: absolute;
   display:flex;
   margin-top: 32%;
+  
   /* margin-left:10%; */
 }
 .sec-homians{
@@ -811,17 +813,29 @@ color: #78A92D;
   line-height: 46px;
 }
 
+.list{
+  list-style: none;
+}
  a:visited{
   color:black;
   /* text-decoration: none; */
 }
 .hyperlink{
   text-decoration: none;
+
 }
 
 .sec-contact-us {
-  margin-left: 22%;
+  margin-left: 10%;
   /* display:flex; */
+  /* width: 25vw; */
+}
+.homians-list{
+  width:10vw;
+}
+.contact-us-list{
+  width: 15vw;
+
 }
 .sec-contact-us h2{
   font-family: 'Pacifico';
@@ -829,9 +843,10 @@ color: #78A92D;
   font-weight: 400;
   font-size: 26px;
   line-height: 46px;
+
 }
 .sec-timings{
-    margin-left:22%;
+    margin-left:18%;
 }
 .sec-timings h2{
   font-family: 'Pacifico';
@@ -989,6 +1004,7 @@ color: #78A92D;
   .contact-info:before {
     display: none;
   }
+ 
 
   .square,
   .big-circle {
@@ -1099,4 +1115,70 @@ color: #78A92D;
     overflow: hidden;
     transition: 0.5s;
   }
+}
+@media only screen and (max-width:413px){
+  .image-down{
+    display: none;
+  }
+  .footer-sections{
+    /* margin-top: 3vh; */
+    display: flex;
+    /* flex-direction:column; */
+  }
+  .side-ques-text{
+    font-size: 0.5rem;
+    display: none;
+  }
+  .footer-green-img{
+    margin-top: -20vh;
+  }
+  .sec-timings{
+    display:none;
+  }
+  .sec-homians{
+    /* margin-top:-2vh; */
+    font-size:.9rem;
+    
+  }
+  .sec-contact-us h2{
+    font-size: 1.4rem;
+    line-height: 1.3rem;
+  }
+  .devesh{
+    display: flex;
+  }
+  .sec-contact-us{
+    
+    /* width:12vw; */
+    margin-left:26%; 
+    font-size:.9rem;
+
+  }
+  .bottom-footer{
+    position: absolute;
+    margin-top:22vh;
+    margin-left:-10%;
+  }
+  .mail-box{
+    display:none;
+  }
+  .trademark{
+    display:none;
+  }
+  .homians-list{
+    /* margin-left: 6%; */
+    width:10vw !important;
+
+  }
+  .contact-us-list{
+    
+    margin-left: 4%;
+    width: 15vw;
+
+  
+  }
+  .section3{
+    height: 35vh;
+  }
+
 }
