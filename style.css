@@ -14,6 +14,7 @@
   .navbar{
     width: 100%;
     display: flex;
+    margin-top: -2%;
     align-items: center;
   }
   .nav-logo{
@@ -100,11 +101,33 @@ z-index: -1;
 
 .description{
     font-size: 1.2rem;
-    width: 50%;
+    width: 60%;
+    font-style: italic;
     margin-left: 8vw;
     color:rgba(0, 0, 0, 0.52);
     font-weight: 800;
 }
+.vertical__dash{
+    position: absolute;
+    width: 12.27px;
+    height: 20vh;
+    left:3%;
+    top: 191%;
+    
+    background: #78A92D;
+    border-radius: 23px;
+}
+.vertical__dash2{
+    position: absolute;
+    width: 12.27px;
+    height: 20vh;
+    left:32%;
+    top: 191%;
+    
+    background: #78A92D;
+    border-radius: 23px;
+}
+
 .food{
     height: 40vh;
     margin-left: 10%;
@@ -121,12 +144,14 @@ z-index: -1;
     background-color: #78A92D;
     border-radius:12px;
     border: 0px;
-    height: 5vh;
-    margin-left: -10%;
+    height: 7vh;
+    /* padding-bottom: 30px; */
+    margin-left: -8%;
 }
 .fruit-img{
     height: 190vh;
-    z-index: -1;
+    /* z-index: 10; */
+    opacity: 10%;
     position: absolute;
     margin-left: 11%;
     margin-top: -10%;
@@ -159,7 +184,7 @@ z-index: -1;
     font-size: 2rem;
     font-family: pacifico;
     color: #78A92D;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 .special_diet_content{
     font-size: 1.5rem;
@@ -167,8 +192,8 @@ z-index: -1;
     color: #959494;
     text-decoration: none;
     width: 50%;
-    margin-top: -20%;
-    margin-left: 14%;
+    margin-top: -26%;
+    margin-left: 10%;
 }
 .jk{
     color: #78A92D;
@@ -225,8 +250,9 @@ z-index: -1;
 .chef_count{
     margin-left: 5%;
     font-size: 4rem;
-    margin-top: -1%;
+    margin-top: -3%;
     color: #78A92D;
+    font-family: pacifico;
 }
 .chef{
     margin-left: 5%;
@@ -244,8 +270,9 @@ z-index: -1;
 .customer_count{
     margin-left: 5%;
     font-size: 4rem;
-    margin-top: -1%;
+    margin-top: -3%;
     color: #78A92D;
+    font-family: pacifico;
 }
 .customer{
     margin-left: 5%;
@@ -282,17 +309,17 @@ z-index: -1;
 }
 .card1{
     width: 40%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(120, 169, 45, 1) 0px 5px 15px;
     margin: 1%;
     border-radius: 13px;
 }
 .card2{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(120, 169, 45, 1) 0px 5px 15px;
     margin: 1%;
     border-radius: 13px;
 }
 .card3{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(120, 169, 45, 1) 0px 5px 15px;
     margin: 1%;
     width: 40%;
     border-radius: 13px;
@@ -401,13 +428,17 @@ z-index: -1;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 13px;
     width: 40%;
-    margin-left: 10%;
+    /* position: absolute; */
+    z-index: 50;
+    
+    margin-left: 11%;
 }
 .rectangle11{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 13px;
     width: 40%;
     margin-left: 50%;
+   
 }
 .rectangle12{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -433,6 +464,9 @@ z-index: -1;
 }
 .rect15-img{
     height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .rect-abt{
     text-align: center;
@@ -489,7 +523,9 @@ z-index: -1;
     margin-left: 5%;
 }
 @media only screen and (max-width:413px){
-  
+   .navbar{
+       margin-top: -5%;
+   }
     nav ul{
       width: 100%;
       background: linear-gradient(#fcfffa,#c2f577);
@@ -531,7 +567,10 @@ z-index: -1;
         height: 30vh;
     }
     .description{
-        margin-left:15%;
+        text-align: center;
+        margin-left: 11%;
+        width: 80%;
+
     }
     .btn1{
         width: 20vw;
@@ -548,7 +587,7 @@ z-index: -1;
     }
     .image_about{
         margin-left: -20%;
-        height: 20vh;
+        height: 23vh;
     }
     .heading_about{
         font-family: pacifico;
@@ -557,6 +596,8 @@ z-index: -1;
     }
     .about_description{
         margin-left: 10%;
+        color: #959494;
+        width: 130%;
     }
     .row{
         display: flex;
@@ -567,20 +608,30 @@ color: #78A92D;
 font-size: 2rem;
 margin-top: 4%;
     }
+    .vertical__dash{
+        display: none;
+    }
+    .vertical__dash2{
+        display: none;
+    }
     .chef{
         margin-left: 5%;
         font-weight: 700;
+        font-size: 1.1rem;
+        margin-top: 6%;
     }
     .customer_count{
-        margin-left: 5%;
+        margin-left: 3%;
         font-size: 2rem;
         margin-top: 4%;
         color: #78A92D;
     }
     .customer{
-        margin-left: 3%;
+        margin-left: 1%;
         font-family: poppins;
         font-weight: 700;
+        font-size: 1.1rem;
+        margin-top: 4%;
 
     }
     .name{
@@ -599,14 +650,16 @@ margin-top: 4%;
     }
     .gajar{
         height: 4vh;
-        margin-left: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
         margin-top: 5%;
     }
     .card1{
         border-radius: 13px;
         margin-left: 2%;
         width:43vw;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        box-shadow: rgba(120, 169, 45, 1) 0px 1px 10px;
         /* background-color: #78A92D; */
     }
     .abt__card__heading{
@@ -622,7 +675,7 @@ margin-top: 4%;
         width: 43vw;
         border-radius: 13px;
         /* background-color: #78A92D; */
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        box-shadow: rgba(120, 169, 45, 1) 0px 1px 10px;
         margin-left: 5px;
     }
     .card3{
@@ -630,7 +683,7 @@ margin-top: 4%;
         width: 43vw;
         margin-left: 5px;
         margin-right: 2%;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        box-shadow: rgba(120, 169, 45, 1) 0px 1px 10px;
         
     }
     .why_homians{
@@ -760,7 +813,7 @@ margin-top: 4%;
     }
     .fav-plans{
         text-decoration: none;
-        text-align: center;
+        margin-left: 38%;
         margin-top: 3%;
         font-weight: 800;
         font-size: 1.2rem;
@@ -807,6 +860,8 @@ margin-top: 4%;
     .menu-bt{
         border-radius: 15px;
         border: 0px;
+        width: 15vw;
+        height: 4vh;
         margin-top: -7%;
         margin-left: auto;
         margin-right: auto;
@@ -912,6 +967,7 @@ margin-top: 4%;
     }
     .mohit__skipping{
         height: 40vh;
+        width: 46vw;
         margin-left: -10%;
     }
     .row__pu{
@@ -928,21 +984,27 @@ margin-top: 4%;
         margin-left: -7%;
     }
     .fav__box{
-width: 25vw;
+width: 20vw;
 margin-left: 6%;
-height: 15vh;
+height: 13vh;
+margin-top: -35%;
 border-radius: 11px;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
+    #gucci{
+        margin-top: 5% ;
+        margin-left: -33%;
+    }
     .favbox__img{
-        height: 5vh;
+        height: 4vh;
         margin-left: auto;
         margin-right: auto;
         display: block;
-        margin-top: 2%;
+        margin-top: 3%;
     }
     .favbox_para{
         text-align: center;
+        font-size: 0.6rem;
     }
     .special__diet__boxes{
         display: flex;
