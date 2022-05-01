@@ -919,20 +919,6 @@ color: #78A92D;
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ---------------------------------------------------media queries------------------------------------------------------------------------ */
 @media (max-width: 850px) {
   .form {
@@ -1245,6 +1231,6 @@ color: #78A92D;
 
 @media only screen and (max-width: 376px){
 img.bottom-footer {
-    margin-top: -55vh;
+    margin-top: -97%;
 }
 }

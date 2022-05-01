@@ -747,6 +747,6 @@ display: block;
 } 
 @media only screen and (max-width:376px){
     .bottom-footer{
-        margin-top:-55vh;
+        margin-top:-97%;
     }
 }
