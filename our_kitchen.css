@@ -745,3 +745,8 @@ display: block;
     transition: 0.5s;
 }
 } 
+@media only screen and (max-width:376px){
+    .bottom-footer{
+        margin-top:-55vh;
+    }
+}
