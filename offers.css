@@ -69,16 +69,20 @@
     margin-left: 40%;
 }
 .small_logo{
-    margin-top: -3%;
-    height: 40vh;
+    margin-top: -26%;
+    /* height: 24vh; */
+    width:29vw;
+    margin-left: 0%;  
+     /* margin-top: -3%; */
+    height: 45vh;
 }
 .refer{
-    font-size: 1.3rem;
+    font-size: 2rem;
     color: 
     #78A92D
     ;
     font-weight: 700;
-    margin-left: 4%;
+    margin-left: -2%;
 }
 .btn{
     height: 8vh;
@@ -92,16 +96,19 @@
 }
 .orange_text{
     color: orange;
+    margin-left: 5%;
 }
 .gift_left{
+    position: absolute;
     height: 45vh;
-    margin-top: -230px;
-    margin-left: -50%;
+    margin-top: -19%;
+    margin-left: -43%;
 }
 .gift_right{
+    position: absolute;
     height: 40vh;
-    margin-left: 70%;
-    margin-top: -20%;
+    margin-left: 15%;
+    margin-top: -10%;
 }
 .parent_one{
     display: flex;
@@ -145,7 +152,9 @@
         margin-top: -90%;
     }
     .small_logo{
-        height: 22vh;
+        margin-top: -12%;
+        height: 24vh;
+        width:21vw;
         margin-left: 0%;
     }
     .refer{
