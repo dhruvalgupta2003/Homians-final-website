@@ -1017,9 +1017,15 @@ color: #78A92D;
   .contact-info:before {
     display: none;
   }
+<<<<<<< HEAD
   /* .form{
   
   } */
+=======
+  .form{
+    /* margin-top: -90% !important; */
+  }
+>>>>>>> e0c8dea126c9177a75aeba7c4a01a3e913f9143b
  
 
   .square,
@@ -1199,9 +1205,16 @@ color: #78A92D;
     
     width: 40%;
   }
+<<<<<<< HEAD
   /* .mail-box{
 
   } */
+=======
+  .mail-box{
+    /* width: 30%; */
+    /* display:none; */
+  }
+>>>>>>> e0c8dea126c9177a75aeba7c4a01a3e913f9143b
 
   .footer-mail{
     width: 100%;
