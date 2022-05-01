@@ -747,12 +747,13 @@ display: block;
 } 
 @media only screen and (max-width:376px){
     .bottom-footer{
-        margin-top:-102%;
+        margin-top:-110%;
     }
     .footer-green-img{
-      width:120%;
+      width:100%;
     }
     .side-ques{
       margin-top:80%;
+      /* display: none; */
     }
 }
