@@ -937,7 +937,7 @@ color: #78A92D;
 @media (max-width: 850px) {
   .form {
     grid-template-columns: 1fr;
-    margin-top: -48%;
+    /* margin-top: -40%;   */
   }
   .container1{
     height: 20vh;
@@ -1017,15 +1017,6 @@ color: #78A92D;
   .contact-info:before {
     display: none;
   }
-<<<<<<< HEAD
-  /* .form{
-  
-  } */
-=======
-  .form{
-    /* margin-top: -90% !important; */
-  }
->>>>>>> e0c8dea126c9177a75aeba7c4a01a3e913f9143b
  
 
   .square,
@@ -1138,6 +1129,7 @@ color: #78A92D;
     transition: 0.5s;
   }
 }
+
 @media only screen and (max-width:413px){
   .image-down{
     display: none;
@@ -1205,16 +1197,6 @@ color: #78A92D;
     
     width: 40%;
   }
-<<<<<<< HEAD
-  /* .mail-box{
-
-  } */
-=======
-  .mail-box{
-    /* width: 30%; */
-    /* display:none; */
-  }
->>>>>>> e0c8dea126c9177a75aeba7c4a01a3e913f9143b
 
   .footer-mail{
     width: 100%;
@@ -1258,4 +1240,11 @@ color: #78A92D;
     display: flex;
   }
 
+}
+
+
+@media only screen and (max-width: 376px){
+img.bottom-footer {
+    margin-top: -55vh;
+}
 }
