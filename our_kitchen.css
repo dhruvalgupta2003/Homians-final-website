@@ -749,4 +749,10 @@ display: block;
     .bottom-footer{
         margin-top:-102%;
     }
+    .footer-green-img{
+      width:120%;
+    }
+    .side-ques{
+      margin-top:72%;
+    }
 }
