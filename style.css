@@ -156,7 +156,7 @@ body{
     height: 700px;
     position: absolute;
     /* margin-right:-70% ; */
-    width: 450px;
+    width: 510px;
 left: 64.4%;
 /* right: -12.2%; */
 top: 1.58%;
@@ -183,6 +183,7 @@ z-index: -1;
     font-weight: 800;
 }
 .vertical__dash{
+    display: none;
     position: absolute;
     width: 12.27px;
     height: 20vh;
@@ -194,6 +195,7 @@ z-index: -1;
 }
 .vertical__dash2{
     position: absolute;
+    display: none;
     width: 12.27px;
     height: 18vh;
     left:35%;
@@ -1488,11 +1490,11 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 40%;
 }
 .new_devesh_logo{
-    width: 50vw;
+    width: 45vw;
     position: absolute;
-    margin-left: 25%;
+    margin-left: 32%;
     margin-top: 7%;
 }
-.copyright_text{
-    margin-left: 40%;
-}
+
+
+
